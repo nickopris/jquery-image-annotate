@@ -440,6 +440,7 @@
     ///	</summary>
     this.form.html(text);
     this.form.hide();
+    this.area.html('<div>' + label + '</div>');
 
     // This appends the label to the area for a new note
     this.note.label = label;
